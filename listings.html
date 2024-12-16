@@ -1,0 +1,49 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<meta charset="UTF-8" />
+<meta name="viewport" content="width=device-width, initial-scale=1.0"/>
+<meta name="description" content="Browse hostel listings in Karachi.">
+<title>HostelFinder Karachi - Listings</title>
+<link rel="stylesheet" href="css/style.css">
+</head>
+<body>
+<header class="site-header">
+  <div class="container">
+    <div class="logo">
+      <a href="index.html">HostelFinder Karachi</a>
+    </div>
+    <nav class="main-nav">
+      <ul>
+        <li><a href="index.html">Home</a></li>
+        <li><a class="active" href="listings.html">Hostel Listings</a></li>
+        <li><a href="contact.html">Contact</a></li>
+      </ul>
+    </nav>
+  </div>
+</header>
+
+<section class="listings-section container">
+  <h1>Hostel Listings</h1>
+  <div class="listings-filter">
+    <input type="text" id="searchInput" placeholder="Filter by location or price range">
+  </div>
+  <div id="hostelList" class="hostel-grid">
+    <!-- Hostels will be injected here by JavaScript -->
+  </div>
+  <div class="pagination-controls">
+    <button id="prevPage" disabled>Previous</button>
+    <span id="pageInfo">Page 1</span>
+    <button id="nextPage">Next</button>
+  </div>
+</section>
+
+<footer class="site-footer">
+  <div class="container footer-content">
+    <p>&copy; 2024 HostelFinder Karachi. All rights reserved.</p>
+    <a href="#">Privacy Policy</a>
+  </div>
+</footer>
+<script src="js/script.js"></script>
+</body>
+</html>

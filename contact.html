@@ -1,0 +1,58 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<meta charset="UTF-8" />
+<meta name="viewport" content="width=device-width, initial-scale=1.0"/>
+<title>HostelFinder Karachi - Contact</title>
+<link rel="stylesheet" href="css/style.css">
+<meta name="description" content="Contact HostelFinder Karachi for inquiries and booking requests.">
+</head>
+<body>
+<header class="site-header">
+  <div class="container">
+    <div class="logo">
+      <a href="index.html">HostelFinder Karachi</a>
+    </div>
+    <nav class="main-nav">
+      <ul>
+        <li><a href="index.html">Home</a></li>
+        <li><a href="listings.html">Hostel Listings</a></li>
+        <li><a class="active" href="contact.html">Contact</a></li>
+      </ul>
+    </nav>
+  </div>
+</header>
+
+<section class="contact-section container">
+  <h1>Contact Us</h1>
+  <p>For general inquiries or booking requests, please fill out the form below.</p>
+  <form class="contact-form">
+    <label for="name">Name:</label>
+    <input id="name" type="text" required>
+
+    <label for="email">Email:</label>
+    <input id="email" type="email" required>
+
+    <label for="inquiryType">Inquiry Type:</label>
+    <select id="inquiryType" required>
+      <option value="" disabled selected>Select your inquiry type</option>
+      <option value="general">General Inquiry</option>
+      <option value="booking">Booking Request</option>
+    </select>
+
+    <label for="message">Message:</label>
+    <textarea id="message" rows="5" required></textarea>
+
+    <button type="submit">Submit</button>
+  </form>
+</section>
+
+<footer class="site-footer">
+  <div class="container footer-content">
+    <p>&copy; 2024 HostelFinder Karachi. All rights reserved.</p>
+    <a href="#">Privacy Policy</a>
+  </div>
+</footer>
+<script src="js/script.js"></script>
+</body>
+</html>
